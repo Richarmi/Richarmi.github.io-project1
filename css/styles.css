@@ -1,0 +1,105 @@
+
+
+
+body {
+  background-image: url('../img/millenium_cockpit.jpg');
+  background-size: cover;
+}
+
+section {
+  text-align: center;
+  justify-content: center;
+  margin-left: 30%;
+}
+
+#title {
+  background-color: black;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+
+  color: yellow;
+  text-align: center;
+}
+
+.lose-message {
+  visibility: hidden;
+  background-color: black;
+  width: 40%;
+  margin-left: 30%;
+  color: yellow;
+  text-align: center;
+}
+
+.porg-havoc {
+  visibility: hidden;
+  text-align: center;
+  margin-left: 25%;
+}
+
+.porg-audio {
+  visibility: hidden;
+  text-align: center;
+  margin-left: 25%;
+}
+
+/* .score-board,
+.level,
+.stress-level,
+.ruinedItems,
+.retrievedItems */
+
+.dash-board
+{
+  background-color: black;
+  width: 50%;
+  margin-left: 25%;
+  color: yellow;
+  text-align: center;
+}
+
+.dash-board h4 {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.game-square {
+  height: 50px;
+  width: 50px;
+  border: 1px solid yellow;
+}
+
+.game-board {
+  display: inline-block;
+}
+
+.equipment-item {
+  background-image: url('../img/engine.jpg');
+  background-size: cover;
+}
+
+
+.porg {
+	background-image: url('../img/Porg_TLJ_VD_Cover.jpg');
+	background-size: cover;
+}
+
+.chewie {
+	background-image: url('../img/Chewie_TCW.jpg');
+	background-size: cover;
+}
+
+.item1 {
+  background-image: url('../img/engine.jpg');
+	background-size: cover;
+}
+
+.item2 {
+  background-image: url('../img/Hydrospanner_icon.png');
+	background-size: cover;
+}
+
+.item3 {
+  background-image: url('../img/Hyper_drive.png');
+	background-size: cover;
+}
